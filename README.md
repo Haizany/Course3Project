@@ -36,9 +36,10 @@ The steps are to:
 -	Give descriptive activity names using as.character
 -	Label the dataset with descriptive variable names using gsub
 -	Create tidy.txt using as.factor, aggregate and write.table
-The final data (tidy data)  has 80 observations  and 88 variables.
+
 
 ## The final data submitted - tidy data
-this is the output data in .txt format submitted in this repository.
+The final data (tidy data) is the output data in .txt format submitted in this repository.
+The final data (tidy data)  has 180 observations  and 88 variables.
 
 
