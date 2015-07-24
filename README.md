@@ -38,6 +38,7 @@ The steps are to:
 -	Create tidy.txt using as.factor, aggregate and write.table
 The final data (tidy data)  has 80 observations  and 88 variables.
 
-
+## The final data submitted - tidy data
+this is the output data in .txt format submitted in this repository.
 
 
