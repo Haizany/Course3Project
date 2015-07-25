@@ -28,12 +28,12 @@ The data is then unzipped, read into R, and does the following:
 - Appropriately labels the data set with descriptive variable names. 
 - creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## The Raw Data
+## The  Data
 The data unzipped are: activity_labels.txt, features.txt, features_info.txt, README.txt and Test and Train data which comprise of: 
   x_test.txt, y_test,txt, subject_test.txt,
   x_train.txt, y_train,txt, subject_train.txt,
 
-## Reading the Data
+## The Steps
 The steps are to:
 -	read the data in .txt format into a table format in R using read.table
 -	Merge the  training and test datasets using rbind
