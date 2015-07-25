@@ -1,3 +1,5 @@
+
+
 # Course3Project
 Course 3 Project Assignment
 Getting and Cleaning Data
@@ -15,6 +17,9 @@ The requirement of the project is to write an R script (run_analysis.R) to read 
    https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 This is the data collected from the accelerometers from the Samsung Galaxy S smartphone.
+30 subjects performed activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
+The 30 volunteers were within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
+Using the embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz were captured. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers were selected for generating the training data and 30% the test data. 
 
 The data is then unzipped, read into R, and does the following:
 - Merges the training and the test sets to create one data set.
@@ -32,14 +37,17 @@ The data unzipped are: activity_labels.txt, features.txt, features_info.txt, REA
 The steps are to:
 -	read the data in .txt format into a table format in R using read.table
 -	Merge the  training and test datasets using rbind
--	Extracts only the mesaurements on the mean and std deviation for each measurement using grep and concatenate
+-	Extracts only the measurements on the mean and std deviation for each measurement using grep and concatenate
 -	Give descriptive activity names using as.character
 -	Label the dataset with descriptive variable names using gsub
 -	Create tidy.txt using as.factor, aggregate and write.table
-
+-	Create tidy.txt using as.factor, aggregate and write.table
 
 ## The final data submitted - tidy data
 The final data (tidy data) is the output data in .txt format submitted in this repository.
 The final data (tidy data)  has 180 observations  and 88 variables.
+
+
+
 
 
