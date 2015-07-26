@@ -35,7 +35,9 @@ The data unzipped are: activity_labels.txt, features.txt, features_info.txt, REA
 
 ## The Steps
 The steps are to:
+
 ## Step 1: Read the data in .txt format into a table format in R using read.table
+
 -	merge train and test dataset to create one dataset of each (X, Y-activity, Subject)
 -	The datasets are: All_features, All_activity, All_subject (using rbind)
 -	All datasets are then merged into one dataset (All_Data) using cbind
