@@ -34,7 +34,6 @@ The data unzipped are: activity_labels.txt, features.txt, features_info.txt, REA
   x_train.txt, y_train,txt, subject_train.txt,
 
 ## The Steps
-The steps are to:
 
 ## Step 1: Read the data in .txt format into a table format in R using read.table
 
@@ -42,14 +41,22 @@ The steps are to:
 -	The datasets are: All_features, All_activity, All_subject (using rbind)
 -	All datasets are then merged into one dataset (All_Data) using cbind
 -	All_Data has 10,299 observations (rows) and 563 variables (columns)
+
 ## Step 2:  Extracts only the measurements on the mean and std deviation for each measurement 
+
 -	using grep, get all variables that have “mean” and “std”
 -	this is assigned to Requiredcolumns
+
 ## Step 3: Give descriptive activity names using as.character
+
 -	this is done to give names to numeric 1-6 as “WALKING”, “WALKING_UPSTAIRS”, “WALKING_DOWNSTAIRS”, “SITTING”, “STANDING”, “LAYING”.
+
 ## Step 4:  Appropriately labels the data set with descriptive variable names. 
+
 -	Label the dataset with descriptive variable names using gsub.
 -	Descriptive variable names used were:  Accelerometer (Acc ), Gyroscope  (Gyro), Body (BodyBody),  Magnitude  (Mag),  Frequency (freq), and Time (t).
+
 ## Step 5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 -	Create tidy.txt using as.factor, aggregate and write.table
 -	This final data is submitted. has 180 observations  and 88 variables.
